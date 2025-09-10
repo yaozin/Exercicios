@@ -1,0 +1,22 @@
+**Lista se criam a partir do []
+EX: Lista_1 =  []
+**Para criar lista dentro de listas é só usar [] dentro de []
+**Para fazer slicing usamos :
+Ex: Lista_1[:3] ou [1:3] ou [3:0]
+**Para adicionar novo valor dentro da lista usamos .extend() ou .append() - append ele coloca uma lista dentro da lista
+EX: Lista_1.extend(novo valor) ou Lista_1.append()
+**Para substituir elementos podemos dar o index:  A = [1,2,3,4] - A[0] = 10 - A = [10,2,3,4]
+**Para apagar usamos metodo del :  EX del(A[0])
+O metodo .split pode fazer uma string virar lista. 'Jogar bola'.split() - [jogar, bola]
+
+**Tuplas se criam a partir do ()
+EX: Tupla = ()
+Comando len nos dá o tamanho EX: len(tuple)
+
+**Dicionarios
+Metodo .Key pega todos as chaves do dicionario e o metodo .values retorna todos os valores
+
+**Conjunto
+Cria-se usando {} mas diferente do dicionario não usa-se :
+Pode-se adicionar um elemento a partir do .add() e para remover seria .remove()
+Podemo ver elementos iguais em dois conjuntos usando set1 & set2 ou .intersection - e podemos ver elementos diferentes com o .difference()
