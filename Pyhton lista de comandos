@@ -20,3 +20,8 @@ Metodo .Key pega todos as chaves do dicionario e o metodo .values retorna todos 
 Cria-se usando {} mas diferente do dicionario não usa-se :
 Pode-se adicionar um elemento a partir do .add() e para remover seria .remove()
 Podemo ver elementos iguais em dois conjuntos usando set1 & set2 ou .intersection - e podemos ver elementos diferentes com o .difference()
+
+**LAÇO
+Range() : Dentro de parenteses temos a sequencia desejada. Se colocarmos range(10,15) a sequencia a partir do primeiro numero(10) e vai ate p segundo numero.
+Enumerates(lista,range etc) mostra o index de cada iteração
+WHILE SINTAX: i=0 while(lista[i] condição) - i sendo o index
