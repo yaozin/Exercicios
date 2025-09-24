@@ -25,3 +25,63 @@ Podemo ver elementos iguais em dois conjuntos usando set1 & set2 ou .intersectio
 Range() : Dentro de parenteses temos a sequencia desejada. Se colocarmos range(10,15) a sequencia a partir do primeiro numero(10) e vai ate p segundo numero.
 Enumerates(lista,range etc) mostra o index de cada iteração
 WHILE SINTAX: i=0 while(lista[i] condição) - i sendo o index
+
+**O que é uma API REST?
+
+API (Application Programming Interface) é uma forma de sistemas diferentes se comunicarem.
+
+REST (Representational State Transfer) é um estilo de arquitetura para APIs.
+
+Uma API REST geralmente troca dados no formato JSON (às vezes XML).
+
+Ela segue princípios simples usando o protocolo HTTP.
+
+🔹 Métodos HTTP mais comuns
+
+Quando você acessa uma API REST, você usa solicitações HTTP. Os principais métodos são:
+
+GET → Buscar informações (ex.: consultar usuários).
+
+POST → Enviar dados (ex.: cadastrar novo usuário).
+
+PUT → Atualizar dados existentes (ex.: editar usuário).
+
+DELETE → Remover dados (ex.: excluir usuário).
+
+🔹 Estrutura de uma requisição HTTP
+
+Uma requisição tem três partes principais:
+
+URL/Endpoint → O endereço da API (ex.: https://api.exemplo.com/users).
+
+Cabeçalhos (Headers) → Informações extras, como autenticação (Authorization: Bearer token123).
+
+Corpo (Body) → Dados enviados (usado em POST/PUT, geralmente em JSON).
+
+🔹 Exemplo em Python com requests
+
+A biblioteca mais usada é a requests.
+
+👉 GET (buscar dados)
+import requests
+
+url = "https://jsonplaceholder.typicode.com/posts/1"
+response = requests.get(url)
+
+print(response.status_code)  # 200 = OK
+print(response.json())       # Converte JSON em dicionário Python
+
+👉 POST (enviar dados)
+import requests
+
+url = "https://jsonplaceholder.typicode.com/posts"
+data = {
+    "title": "Novo post",
+    "body": "Conteúdo do post",
+    "userId": 1
+}
+
+response = requests.post(url, json=data)
+print(response.status_code)  
+print(response.json())       # Mostra a resposta da API
+
