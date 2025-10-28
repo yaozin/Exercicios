@@ -1,0 +1,186 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPdt6vaHpCVu0vOXS/7ve/f",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yaozin/Exercicios/blob/main/Coursera%20data%20science\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "EmqqtsZ6q2Z_"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "***Valorant Projeto***"
+      ],
+      "metadata": {
+        "id": "BvRUP77Vq_bh"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Author**\n",
+        "\n",
+        "Leandro Almeida\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "E3CDEauIv0n6"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "My objective is to extract by web scrapping, stats and matchs from VCT competitive year"
+      ],
+      "metadata": {
+        "id": "cj2FVzLyrFgo"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Objectives:**\n",
+        "\n",
+        "\n",
+        "*   Linguagens de Data Science\n",
+        "*   Aritméticas e horas\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "mdhvjmYXBeRR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Data science languages**\n",
+        "\n",
+        "Python\n",
+        "---\n",
+        "Scala\n",
+        "---\n",
+        "R\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "oix7yVS5r24m"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Data science librarys**\n",
+        "\n",
+        "Scikit learn\n",
+        "---\n",
+        "Pandas\n",
+        "---\n",
+        "Mantplot, SeasBorn, Pytorch\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "0X7r7hKjsX5q"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Data science tools**\n",
+        "\n",
+        "SQL\n",
+        "---\n",
+        "Apache spark, Handoot\n",
+        "---\n",
+        "Databricks\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "TOZPrYzHtu9e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a= 1\n",
+        "b= 2\n",
+        "c =a+b\n",
+        "print(f'your number is', c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wTv6qjcDrCfA",
+        "outputId": "c29f8f6a-c563-4172-831d-5014b0ab0542"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "your number is 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "minutos = 2000\n",
+        "horas = minutos/60\n",
+        "print(f'sua hora é', horas)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DaeGtsXj_nPl",
+        "outputId": "cc4c1cca-02cd-4aee-92f9-67eec9c86861"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sua hora é 33.333333333333336\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
