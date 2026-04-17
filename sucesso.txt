@@ -1,0 +1,1 @@
+Conexão configurada com sucesso e permissões de escrita ativas!
